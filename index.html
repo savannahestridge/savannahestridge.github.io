@@ -3,104 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Savannah Estridge</title>
+    <title>Savannah Estridge - Data Scientist</title>
     <style>
+        /* Global Styles */
         body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
-            font-family: 'Arial', sans-serif;
-            color: #333;
+            padding: 0;
             line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
         }
 
+        a {
+            text-decoration: none;
+            color: #0078d4;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header Section */
         header {
-            background: linear-gradient(135deg, #ff6b6b, #f06595);
-            color: #fff;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 2rem 0;
             text-align: center;
-            padding: 4rem 1rem;
         }
 
         header h1 {
+            font-size: 2.5rem;
             margin: 0;
-            font-size: 3rem;
-            text-transform: uppercase;
         }
 
         header p {
-            margin: 1rem 0 0;
             font-size: 1.2rem;
-            font-weight: 300;
+            margin: 0.5rem 0 0;
         }
 
+        /* Navigation Bar */
         nav {
-            background: #fff;
-            display: flex;
-            justify-content: center;
-            padding: 0.5rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #0078d4;
+            text-align: center;
+            padding: 0.8rem 0;
         }
 
         nav a {
-            color: #f06595;
+            color: #fff;
             margin: 0 1rem;
-            text-decoration: none;
             font-weight: bold;
         }
 
         nav a:hover {
-            color: #ff6b6b;
+            color: #f1f1f1;
         }
 
-        .hero {
-            text-align: center;
-            padding: 4rem 1rem;
-            background: #f7f7f7;
-        }
-
-        .hero h2 {
-            font-size: 2.5rem;
-            margin: 0;
-            color: #ff6b6b;
-        }
-
-        .hero p {
-            margin: 1rem 0;
-            font-size: 1.2rem;
-        }
-
-        .btn {
-            display: inline-block;
-            margin: 1rem 0;
-            padding: 0.8rem 1.5rem;
-            font-size: 1rem;
-            color: #fff;
-            background: #f06595;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-
-        .btn:hover {
-            background: #ff6b6b;
-        }
-
-        .container {
-            max-width: 800px;
+        /* Section Styles */
+        section {
+            max-width: 900px;
             margin: 2rem auto;
-            padding: 0 1rem;
-            text-align: center;
+            padding: 2rem;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
 
-        .icon {
+        section h2 {
             font-size: 2rem;
-            color: #f06595;
-            margin: 0.5rem;
+            color: #0078d4;
+            margin-bottom: 1rem;
         }
 
+        section p {
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        /* Footer Styles */
         footer {
+            background-color: #1a1a1a;
+            color: #ffffff;
             text-align: center;
-            padding: 2rem 1rem;
-            background: #333;
-            color: #fff;
+            padding: 1.5rem 0;
         }
 
         footer p {
@@ -109,29 +107,14 @@
         }
 
         footer a {
-            color: #ff6b6b;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 2rem;
-            }
-
-            .hero h2 {
-                font-size: 2rem;
-            }
+            color: #0078d4;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Hi, I'm Savannah Estridge</h1>
-        <p>Data Scientist | Visual Storyteller | Advocate for Social Change</p>
+        <h1>Savannah Estridge</h1>
+        <p>Data Scientist | Storyteller | Advocate for Social Impact</p>
     </header>
 
     <nav>
@@ -140,41 +123,31 @@
         <a href="#contact">Contact</a>
     </nav>
 
-    <section class="hero">
-        <h2>Welcome to My World of Data</h2>
-        <p>Exploring insights, creating impact, and telling stories through visualizations.</p>
-        <a href="#projects" class="btn">See My Work</a>
-    </section>
-
-    <section id="about" class="container">
+    <section id="about">
         <h2>About Me</h2>
-        <p>I am a passionate data scientist dedicated to leveraging technology and data to drive social change. With a background in arts and a creative approach to problem-solving, I strive to create impactful insights that resonate with people and inspire action.</p>
+        <p>Hello! I'm Savannah Estridge, a data scientist passionate about leveraging technology and insights to drive meaningful change. My work blends creativity and technical expertise to craft solutions that make a difference.</p>
+        <p>With a background in the arts and a focus on data visualization, I bring unique perspectives to every project, ensuring a balance of precision and storytelling.</p>
     </section>
 
-    <section id="projects" class="container">
-        <h2>My Projects</h2>
-        <p>Here are a few projects that I’ve worked on recently:</p>
+    <section id="projects">
+        <h2>Featured Projects</h2>
         <ul>
-            <li><a href="#">🎨 Visualizing Journeys: Unaccompanied Minors to the US</a></li>
-            <li><a href="#">📊 Pro Bono Placement Progress Dashboard</a></li>
-            <li><a href="#">📚 Analyzing Immigration Data Trends</a></li>
+            <li><strong>Visualizing Journeys:</strong> An interactive dashboard highlighting the journeys of unaccompanied minors traveling to the US.</li>
+            <li><strong>Pro Bono Placement Tracker:</strong> A comprehensive tool to monitor and validate placements across providers.</li>
+            <li><strong>Immigration Data Trends:</strong> Analytical research uncovering key patterns in immigration to the United States.</li>
         </ul>
     </section>
 
-    <section id="contact" class="container">
-        <h2>Get in Touch</h2>
-        <p>If you'd like to collaborate, feel free to reach out!</p>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to collaborate or learn more about my work, feel free to reach out!</p>
         <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-        <div>
-            <a href="#" class="icon">🐦 Twitter</a>
-            <a href="#" class="icon">💼 LinkedIn</a>
-            <a href="#" class="icon">📂 GitHub</a>
-        </div>
+        <p>LinkedIn: <a href="#">linkedin.com/in/savannahestridge</a></p>
+        <p>GitHub: <a href="#">github.com/savannahestridge</a></p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Savannah Estridge. Made with ❤️ and a touch of data.</p>
-        <p><a href="https://github.com/savannahestridge">GitHub</a></p>
+        <p>&copy; 2025 Savannah Estridge. Designed with care for data and impact.</p>
     </footer>
 </body>
 </html>
