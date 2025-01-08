@@ -19,10 +19,20 @@
         }
 
         header {
+            text-align: center;
             background-color: #0078d4;
             color: #ffffff;
-            text-align: center;
-            padding: 2rem 0;
+            padding: 0;
+        }
+
+        header img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        header .title {
+            padding: 1rem 0;
         }
 
         section {
@@ -43,6 +53,16 @@
             margin-bottom: 1rem;
         }
 
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+
         footer {
             background-color: #333;
             color: #ffffff;
@@ -59,8 +79,12 @@
 </head>
 <body>
     <header>
-        <h1>Unaccompanied Minors: A Data-Driven Visualization</h1>
-        <p>Exploring Arrival Demographics, Detainment, and Release Patterns</p>
+        <!-- Title Banner -->
+        <img src="images/test.png" alt="Unaccompanied Minors Title Banner">
+        <div class="title">
+            <h1>Unaccompanied Minors: A Data-Driven Visualization</h1>
+            <p>Exploring Arrival Demographics, Detainment, and Release Patterns</p>
+        </div>
     </header>
 
     <section id="introduction">
