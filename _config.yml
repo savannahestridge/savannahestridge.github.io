@@ -1,9 +1,0 @@
-# Site settings
-title: Unaccompanied Minors: A Data-Driven Visualization
-description: Exploring Arrival Demographics and Migration Journeys through Visualizations
-theme: minima
-author: Savannah Estridge
-
-# Markdown options
-markdown: kramdown
-highlighter: rouge
