@@ -144,34 +144,44 @@
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
+        </section>
 
-            <!-- Narrative Summary -->
-            <div style="margin-top: 20px;">
-                <h3>Number of arrivals per year</h3>
-                <p>The chart above shows the yearly number of unaccompanied children (UC) arriving in the United States, highlighting overall trends and specific country data. Between 2015 and 2023, around 550,000 children arrived. From 2016 to 2022, the number of arrivals steadily increased, except for slight drops in 2017 and 2020. In 2016, about 55,650 children arrived, but by 2022, this number more than doubled to 125,041—a growth of 125%. However, 2020 saw the lowest number of arrivals, with only 14,440 children arriving, likely due to the impact of the COVID-19 pandemic. After this sharp decline, there was a dramatic increase in 2021, with 118,880 arrivals—over seven times more than in 2020.</p>
-                <p><em>It’s important to note that data for 2015 and 2023 is incomplete and was not included in the overall analysis. These yearly changes were likely influenced by events such as changes in immigration policies and global challenges like the pandemic.</em></p>
-            </div>
+        <!-- Detainment Section -->
+        <section id="detainment">
+            <h2>Detainment</h2>
+            <p>Many unaccompanied minors experience detainment upon arrival. This section visualizes:</p>
+            <ul>
+                <li>Average duration of detainment</li>
+                <li>Trends in detainment locations</li>
+                <li>Demographics of those detained</li>
+            </ul>
+        </section>
 
-            <!-- Country of Origin Subsection -->
-            <h3>Country of Origin</h3>
-            <p>The chart below explores the country of origin for unaccompanied children arriving in the United States, offering a detailed breakdown of migration patterns.</p>
+        <!-- Release Section -->
+        <section id="release">
+            <h2>Release</h2>
+            <p>After detainment, unaccompanied minors are often released to sponsors or organizations. Key data includes:</p>
+            <ul>
+                <li>Geographic destinations</li>
+                <li>Types of sponsors (e.g., family, shelters)</li>
+                <li>Temporal patterns of release</li>
+            </ul>
+            <p>The chart below provides insights into the geographic locations of sponsors for unaccompanied minors:</p>
             
-            <!-- Country of Origin Visualization -->
+            <!-- Sponsors by Location Visualization -->
             <div style="border: 1px solid #cccccc; border-radius: 15px; padding: 15px; background-color: #f9f9f9; max-width: 100%; margin: 0 auto; overflow: hidden;">
-                <div class='tableauPlaceholder' id='viz1736380196452' style='position: relative;'>
+                <div class='tableauPlaceholder' id='viz1736381045965' style='position: relative;'>
                     <noscript>
                         <a href='#'>
-                            <img alt='Country of Origin  ' src='https://public.tableau.com/static/images/ar/arrivals_by_country/Sheet12/1_rss.png' style='border: none;' />
+                            <img alt='Sponsors by Location' src='https://public.tableau.com/static/images/49/498CXB2GH/1_rss.png' style='border: none;' />
                         </a>
                     </noscript>
                     <object class='tableauViz' style='width: 100%; height: 350px;'>
                         <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                         <param name='embed_code_version' value='3' /> 
-                        <param name='site_root' value='' />
-                        <param name='name' value='arrivals_by_country/Sheet12' />
-                        <param name='tabs' value='no' />
+                        <param name='path' value='shared/498CXB2GH' />
                         <param name='toolbar' value='yes' />
-                        <param name='static_image' value='https://public.tableau.com/static/images/ar/arrivals_by_country/Sheet12/1.png' />
+                        <param name='static_image' value='https://public.tableau.com/static/images/49/498CXB2GH/1.png' />
                         <param name='animate_transition' value='yes' />
                         <param name='display_static_image' value='yes' />
                         <param name='display_spinner' value='yes' />
@@ -182,7 +192,7 @@
                 </div>
             </div>
             <script type='text/javascript'>
-                var divElement = document.getElementById('viz1736380196452');
+                var divElement = document.getElementById('viz1736381045965');
                 var vizElement = divElement.getElementsByTagName('object')[0];
                 vizElement.style.width = '100%';
                 vizElement.style.height = '350px'; /* Original height */
@@ -191,8 +201,6 @@
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
         </section>
-
-        <!-- Additional sections like detainment and release can go here -->
     </div>
 
     <footer>
