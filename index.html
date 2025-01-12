@@ -100,8 +100,8 @@
             <h2>Introduction</h2>
             <p>Welcome to this professional visualization project that examines the journeys of unaccompanied minors traveling to the United States. This project highlights data-driven insights into arrival demographics, detainment patterns, and release processes to provide clarity and understanding.</p>
         </section>
-
-        <!-- Arrival Section -->
+        
+        <!-- Introduction Section -->
         <section id="arrival">
             <h2>Arrival</h2>
             <p>This section delves into the demographics of unaccompanied minors arriving in the United States. Key focus areas include:</p>
@@ -111,8 +111,8 @@
                 <li>Migration trends over time</li>
             </ul>
             <p>Below is an interactive Tableau visualization illustrating arrivals per year:</p>
-                
-            <!-- Number of Arrivals Visualization -->
+            
+            <!-- Arrivals per Year Visualization -->
             <div style="border: 1px solid #cccccc; border-radius: 15px; padding: 15px; background-color: #f9f9f9; max-width: 100%; margin: 0 auto; overflow: hidden;">
                 <div class='tableauPlaceholder' id='viz1736375146288' style='position: relative;'>
                     <noscript>
@@ -140,6 +140,44 @@
                 var vizElement = divElement.getElementsByTagName('object')[0];
                 vizElement.style.width = '100%';
                 vizElement.style.height = '350px'; /* Original height */
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        
+            <h3>Country of Origin</h3>
+            <p>Below is an additional visualization that highlights trends in the countries of origin for unaccompanied minors:</p>
+            
+            <!-- Country of Origin Visualization -->
+            <div style="border: 1px solid #cccccc; border-radius: 15px; padding: 15px; background-color: #f9f9f9; max-width: 100%; margin: 0 auto; overflow: hidden;">
+                <div class='tableauPlaceholder' id='viz1736640940329' style='position: relative'>
+                    <noscript>
+                        <a href='#'>
+                            <img alt=' ' src='https://public.tableau.com/static/images/Pr/Project_3_17155435041130/Sheet12/1_rss.png' style='border: none;' />
+                        </a>
+                    </noscript>
+                    <object class='tableauViz' style='width: 100%; height: 350px;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                        <param name='embed_code_version' value='3' /> 
+                        <param name='site_root' value='' />
+                        <param name='name' value='Project_3_17155435041130/Sheet12' />
+                        <param name='tabs' value='yes' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image' value='https://public.tableau.com/static/images/Pr/Project_3_17155435041130/Sheet12/1.png' />
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en-US' />
+                    </object>
+                </div>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1736640940329');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width = '100%';
+                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
                 var scriptElement = document.createElement('script');
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
